@@ -29,6 +29,14 @@ Hence, Vout (DC) = 2 Vdd/3 = 1.2V
 - Then, use Components to make a setup like given below in the picture for sizing the M1 and M2 transisitors.
 ![1](https://github.com/afzalamu/single-stage-opamp-design-using-gpdk180-in-cadence/assets/124300839/e22d354c-5ca0-49a7-b360-88f88d54d629)
 
+- Now, click on check and save option and verify in log that schematic is saved with no errors
+- Then, open ADE L for performing the width sweep
+- perform DC sweep on the width variable wn and plot Id of transistor
+![2](https://github.com/afzalamu/single-stage-opamp-design-using-gpdk180-in-cadence/assets/124300839/a3b1e59b-cc73-479c-b186-80e822884cde)
+Then, from the above obtained graph, for Id = 170uA (calculated earlier) width of NMOS transistors M1 and M2 comes out to be 12.4u
+
+
+
 
 
 
