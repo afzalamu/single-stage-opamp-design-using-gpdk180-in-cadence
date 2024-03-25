@@ -13,5 +13,6 @@ Design a one stage Op-Amp that satisfies following specifications:
 | Bandwidth           | ≥ 2MHz            |
 | Vout (DC)           | = 2Vdd/3          |
 
-
+Here is the topology of Single Stage Op-Amp with NMOS drivers and PMOS current mirror load
+![image](https://github.com/afzalamu/single-stage-opamp-design-using-gpdk180-in-cadence/assets/124300839/2febc7dc-c7f0-480e-b052-9e6097d50e55)
 
