@@ -20,7 +20,8 @@ Now, Let us proceed with Mathematical Calculations:
 Here, Vdd = 1.8V
 Hence, Vout (DC) = 2 Vdd/3 = 1.2V
 
-
+![WhatsApp Image 2024-03-25 at 16 58 38_9fbe1eea](https://github.com/afzalamu/single-stage-opamp-design-using-gpdk180-in-cadence/assets/124300839/46a1d395-e13e-4263-9f80-251bf7409bf6)
+![WhatsApp Image 2024-03-25 at 16 58 38_6f6f4d17](https://github.com/afzalamu/single-stage-opamp-design-using-gpdk180-in-cadence/assets/124300839/f51f5139-a2fb-4603-880b-93fba9e1a496)
 
 
 
