@@ -23,17 +23,24 @@ Hence, Vout (DC) = 2 Vdd/3 = 1.2V
 ![WhatsApp Image 2024-03-25 at 16 58 38_9fbe1eea](https://github.com/afzalamu/single-stage-opamp-design-using-gpdk180-in-cadence/assets/124300839/46a1d395-e13e-4263-9f80-251bf7409bf6)
 ![WhatsApp Image 2024-03-25 at 16 58 38_6f6f4d17](https://github.com/afzalamu/single-stage-opamp-design-using-gpdk180-in-cadence/assets/124300839/f51f5139-a2fb-4603-880b-93fba9e1a496)
 
-**SIZING M1 & M2 TRANSISTOR**
+**SIZING M1 & M2 TRANSISTOR (NMOS)**
 - Open cadence virtuoso > Click on File > Create New Library > Attach gpdk180 Technology File to it
 - Then, Click on file > create Cell view (under that library) > Create Schematic
 - Then, use Components to make a setup like given below in the picture for sizing the M1 and M2 transisitors.
 ![1](https://github.com/afzalamu/single-stage-opamp-design-using-gpdk180-in-cadence/assets/124300839/e22d354c-5ca0-49a7-b360-88f88d54d629)
 
-- Now, click on check and save option and verify in log that schematic is saved with no errors
+- Now, click on the check and save option and verify in the log that the schematic is saved with no errors
 - Then, open ADE L for performing the width sweep
-- perform DC sweep on the width variable wn and plot Id of transistor
+- perform DC sweep on the width variable wn and plot ID of the transistor
 ![2](https://github.com/afzalamu/single-stage-opamp-design-using-gpdk180-in-cadence/assets/124300839/a3b1e59b-cc73-479c-b186-80e822884cde)
 Then, from the above obtained graph, for Id = 170uA (calculated earlier) width of NMOS transistors M1 and M2 comes out to be 12.4u
+
+**SIZING M3 & M4 TRANSISTOR (PMOS)**
+- Click on file > create Cell view (under that library) > Create Schematic
+- Then, use Components to make a setup like given below in the picture for sizing the M3 and M4 transistors.
+- 
+
+
 
 
 
