@@ -45,6 +45,8 @@ Then, from the above obtained graph, for Id = 170uA (calculated earlier) width o
 - perform DC sweep on the width variable wn and plot "IS" of the transistor
 ![4](https://github.com/afzalamu/single-stage-opamp-design-using-gpdk180-in-cadence/assets/124300839/20286eff-6acb-4db5-a152-ddb9ac065ea0)
 
+**SIZING M5 TRANSISTOR (PMOS)**
+
 
 
 
