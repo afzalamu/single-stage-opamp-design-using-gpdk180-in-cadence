@@ -45,7 +45,18 @@ Then, from the above obtained graph, for Id = 170uA (calculated earlier) width o
 - perform DC sweep on the width variable wn and plot "IS" of the transistor
 ![4](https://github.com/afzalamu/single-stage-opamp-design-using-gpdk180-in-cadence/assets/124300839/20286eff-6acb-4db5-a152-ddb9ac065ea0)
 
-**SIZING M5 TRANSISTOR (PMOS)**
+**SIZING M5 TRANSISTOR (NMOS)**
+- Click on file > create Cell view (under that library) > Create Schematic
+- Then, use Components to make a setup like given below in the picture for sizing the M3 and M4 transistors
+![6](https://github.com/afzalamu/single-stage-opamp-design-using-gpdk180-in-cadence/assets/124300839/de39747a-ee9d-4bfb-832e-741330367aa2)
+- Now, click on the check and save option and verify in the log that the schematic is saved with no errors
+- Then, open ADE L for performing the width sweep
+- perform DC sweep on the width variable wn and plot "IS" of the transistor
+![6](https://github.com/afzalamu/single-stage-opamp-design-using-gpdk180-in-cadence/assets/124300839/ddca32cc-62cb-4179-943c-ff4d935f8350)
+
+
+
+
 
 
 
