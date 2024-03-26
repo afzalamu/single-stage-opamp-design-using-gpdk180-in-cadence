@@ -52,9 +52,6 @@ Then, from the above obtained graph, for Id = 170uA (calculated earlier) width o
 - Now, click on the check and save option and verify in the log that the schematic is saved with no errors
 - Then, open ADE L for performing the width sweep
 - perform DC sweep on the width variable wn and plot "IS" of the transistor
-![6](https://github.com/afzalamu/single-stage-opamp-design-using-gpdk180-in-cadence/assets/124300839/ddca32cc-62cb-4179-943c-ff4d935f8350)
-
-
 
 
 
