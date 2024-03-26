@@ -40,6 +40,10 @@ Then, from the above obtained graph, for Id = 170uA (calculated earlier) width o
 - Then, use Components to make a setup like given below in the picture for sizing the M3 and M4 transistors.
 ![3](https://github.com/afzalamu/single-stage-opamp-design-using-gpdk180-in-cadence/assets/124300839/3726778d-54c9-4611-996b-01398bd4aa49)
 
+- Now, click on the check and save option and verify in the log that the schematic is saved with no errors
+- Then, open ADE L for performing the width sweep
+- perform DC sweep on the width variable wn and plot ID of the transistor
+
 
 
 
